@@ -57,6 +57,13 @@ module.exports = {
         }
       },
       {
+        test: /\.(mp3)(\?.*)?$/,
+        loader: 'file',
+        query: {
+          name: utils.assetsPath('music/[name].[hash:7].[ext]')
+        }
+      },
+      {
         test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
         loader: 'url',
         query: {

@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <page-cover></page-cover>
     <!-- 路由出口 -->
     <!-- 路由匹配到的组件将渲染在这里 -->
     <transition name="fade">
@@ -9,23 +10,28 @@
 </template>
 
 <script>
-import Hello from './components/Hello'
+import pageCover from './components/pageCover'
 
 export default {
   name: 'app',
   components: {
-    Hello
+    pageCover
   }
 }
 </script>
 
 <style>
-/*#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 202033 */
+  src: url('//at.alicdn.com/t/font_q0xjrfdb9lcv7vi.eot');
+  src: url('//at.alicdn.com/t/font_q0xjrfdb9lcv7vi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_q0xjrfdb9lcv7vi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_q0xjrfdb9lcv7vi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_q0xjrfdb9lcv7vi.svg#iconfont') format('svg');
+}
 </style>

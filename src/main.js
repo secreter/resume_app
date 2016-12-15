@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router/index'
+// import iconfont from '//at.alicdn.com/t/font_q0xjrfdb9lcv7vi.css'
 
 /* eslint-disable no-new */
 new Vue({
