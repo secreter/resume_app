@@ -15,7 +15,7 @@
             src="../assets/bg.mp3">
       				你的浏览器不支持audio标签
 				</audio>
-				http://item.redream.cn/resumeapp/music/bg.mp3
+				<!-- http://item.redream.cn/resumeapp/music/bg.mp3 -->
   			</div>
   		</div>
   	</header>
@@ -28,13 +28,13 @@
   				basic info
   			</div>
   		</div>
-  		<div class="block">
+  		<!-- <div class="block">
   			<div class="-icon iconfont icon-xueli" >
   			</div>
   			<div class="-title">
   				Education
   			</div>
-  		</div>
+  		</div> -->
   		<div class="block">
   			<div class="-icon iconfont icon-xuexiao" >
   			</div>
