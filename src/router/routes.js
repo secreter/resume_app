@@ -1,4 +1,5 @@
 import pageMain from '../components/pageMain'
+import pageBaseinfo from '../components/pageBaseinfo'
 // 1. 定义（路由）组件。
 // 可以从其他文件 import 进来
 const Foo = { template: '<div>foo</div>' }
@@ -15,6 +16,7 @@ const User = { template: '<div> {{ $route.params.name }}</div>' }
 const routes = [
   { path: '/hello', component: hello },
   { path: '/', component: pageMain },
+  { path: '/baseinfo', component: pageBaseinfo },
   { path: '/bar', component: Bar },
   // 动态路径参数 以冒号开头
   { path: '/user/:name', component: User },

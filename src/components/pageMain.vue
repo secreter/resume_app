@@ -27,6 +27,7 @@
   			<div class="-title">
   				basic info
   			</div>
+  			 <router-link to="/baseinfo">baseinfo</router-link>
   		</div>
   		<!-- <div class="block">
   			<div class="-icon iconfont icon-xueli" >
