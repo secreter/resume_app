@@ -22,12 +22,13 @@
   	
   	<nav class="-nav">
   		<div class="block">
-  			<div class="-icon iconfont icon-jibenxinxi" >
-  			</div>
-  			<div class="-title">
-  				basic info
-  			</div>
-  			 <router-link to="/baseinfo">baseinfo</router-link>
+  			<router-link class="so-link" to="/baseinfo">
+  				<div class="-icon iconfont icon-jibenxinxi" >
+	  			</div>
+	  			<div class="-title">
+	  				basic info
+	  			</div>
+  			</router-link>
   		</div>
   		<!-- <div class="block">
   			<div class="-icon iconfont icon-xueli" >
@@ -137,13 +138,25 @@ export default {
 				.-img{
 					width: 80px;
 					height: 80px;
-					background-color: #666;
-					border-radius: 100%;
+					/*background-color: #666;*/
+					border-radius: 30%;
+					transform: rotate(45deg);
+					/*background: url(../assets/head.jpeg) no-repeat;
+					-webkit-background-size: contain;
+					background-size: contain;*/
+					border:2px solid #fbc1a9;
+					overflow: hidden;
+				}
+				.-img::after{
+					content: '';
+					display: block;
+					/*background-color: #333;*/
+					width: 100%;
+					height: 100%;
+					transform: rotate(-45deg) scale(1.3);
 					background: url(../assets/head.jpeg) no-repeat;
 					-webkit-background-size: contain;
 					background-size: contain;
-					border:2px solid #fbc1a9;
-
 				}
 				.-name{
 					color: #333;
@@ -225,5 +238,13 @@ export default {
 	@keyframes rotate {
 	  from {-webkit-transform:rotate(0deg);}
 	  to {-webkit-transform:rotate(360deg);}
+	}
+	.so-link{
+		text-decoration: none;
+		color: #999;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
 	}
 </style>

@@ -6,7 +6,7 @@
     <transition 
       name="custom-classes-transition"
       enter-active-class="animated flipInY"
-      leave-active-class="animated flipInY"
+      leave-active-class="animated flipOutY"
     >
       <router-view></router-view>
     </transition>

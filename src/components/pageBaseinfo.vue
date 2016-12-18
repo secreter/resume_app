@@ -1,5 +1,5 @@
 <template>
-  <div class="baseinfo">
+  <div class="page-baseinfo">
   	ss
   </div>
 </template>
@@ -8,12 +8,18 @@
 export default {
   data () {
     return {
-      msg: ''
     }
   }
 }
 </script>
 
 <style scoped>
-
+	.page-baseinfo{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		background-color: #888;
+	}
 </style>
