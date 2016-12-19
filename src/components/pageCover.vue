@@ -35,12 +35,15 @@ export default {
   created(){
   	setTimeout(() => {
   		this.isshow = false
-  	},5000)
+  	},5)
   }
 }
 </script>
 
 <style lang='less' scoped>
+	/*@bg_color_gray:#6d7a82;
+	@bg_color_orange:#fbc1a9;*/
+	@import "../main.less";
 	.page-cover{
 		position: absolute;
 		z-index: 2;
@@ -53,7 +56,7 @@ export default {
 		.-top{
 			height: 50vh;
 			width: 100%;
-			background-color: #6d7a82;
+			background-color: @bg_color_gray;
 			display: flex;
 			align-items: center;
 			flex-direction: column;
@@ -70,7 +73,7 @@ export default {
 				background: url(../assets/head.jpeg) no-repeat;
 				-webkit-background-size: cover;
 				background-size: cover;
-				border: 5px solid #fbc1a9;
+				border: 5px solid @bg_color_orange;
 			}
 		}
 		.-bottom{
@@ -81,12 +84,12 @@ export default {
 			.-img{
 				width: 16vh;
 				height: 16vh;
-				background:#fbc1a9;
+				background:@bg_color_orange;
 				display: flex;
 				justify-content: center;
 				align-items: center;
 				flex-direction: column;
-				color: #6d7a82;
+				color: @bg_color_gray;
 				h2{
 					width: 100vw;
 					text-align: center;
