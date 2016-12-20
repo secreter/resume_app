@@ -30,12 +30,8 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
-@font-face {
-  font-family: 'iconfont';  /* project id 202033 */
-  src: url('//at.alicdn.com/t/font_q0xjrfdb9lcv7vi.eot');
-  src: url('//at.alicdn.com/t/font_q0xjrfdb9lcv7vi.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_q0xjrfdb9lcv7vi.woff') format('woff'),
-  url('//at.alicdn.com/t/font_q0xjrfdb9lcv7vi.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_q0xjrfdb9lcv7vi.svg#iconfont') format('svg');
+.so-link{
+  text-decoration: none;
+  color: #999;
 }
 </style>
