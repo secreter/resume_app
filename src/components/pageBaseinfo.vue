@@ -2,7 +2,7 @@
   <div class="page-baseinfo">
   	<div class="box">
   		<span class="iconfont icon-xiyangwushi"></span>
-  		<p class="info-title">xxxx</p>
+  		<p class="info-title">me</p>
   	</div>
   	<div class="box">
 		<ul class="info-ul">
@@ -19,18 +19,18 @@
 			<li class="info-li">南开大学本科</li>
 			<li class="info-li">2013-2017</li>
 			<li class="info-li">计算机科学与技术</li>
-			<li class="info-li">前端、数据、语义网</li>
+			<li class="info-li">前端|数据|语义网</li>
 			<li class="info-li">学无止境</li>
 			<li class="info-li">待续···</li>
 		</ul>
   	</div>
   	<div class="box">
   		<span class="iconfont icon-zhandou"></span>
-  		<p class="info-title">xxxx</p>
+  		<p class="info-title">battle</p>
   	</div>
   	<div class="box">
   		<span class="iconfont icon-diqu"></span>
-  		<p class="info-title">xxxx</p>
+  		<p class="info-title">footmark</p>
   	</div>
   	<div class="box">
   		<ul class="info-ul">
@@ -81,6 +81,9 @@ export default {
 			.info-ul{
 
 			}
+			.info-li{
+				color: #333;
+			}
 		}
 		.box:nth-of-type(1),
 		.box:nth-of-type(4),
@@ -90,12 +93,15 @@ export default {
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
-
+			color: #333;
 			.iconfont{
 				font-size: 80px;
-				margin-bottom: 20px;
+				margin-bottom: 10px;
+
 			}
 			.info-title{
+				font-size: 22px;
+				text-transform: uppercase;
 			}
 
 			.-icon-study{
