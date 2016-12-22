@@ -1,5 +1,8 @@
 import pageMain from '../components/pageMain'
 import pageBaseinfo from '../components/pageBaseinfo'
+import pageActivity from '../components/pageActivity'
+import pageExperience from '../components/pageExperience'
+import pageBusiness from '../components/pageBusiness'
 // 1. 定义（路由）组件。
 // 可以从其他文件 import 进来
 const Foo = { template: '<div>foo</div>' }
@@ -17,6 +20,9 @@ const routes = [
   { path: '/hello', component: hello },
   { path: '/', component: pageMain },
   { path: '/baseinfo', component: pageBaseinfo },
+  { path: '/activity', component: pageActivity },
+  { path: '/experience', component: pageExperience },
+  { path: '/business', component: pageBusiness },
   { path: '/bar', component: Bar },
   // 动态路径参数 以冒号开头
   { path: '/user/:name', component: User },

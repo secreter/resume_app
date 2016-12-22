@@ -1,5 +1,6 @@
 <template>
   <div class="page-baseinfo">
+  	<closeButton></closeButton>
   	<div class="box">
   		<span class="iconfont icon-xiyangwushi"></span>
   		<p class="info-title">me</p>
@@ -12,7 +13,7 @@
 			<li class="info-li">爱代码 爱生活</li>
 			<li class="info-li">要洒脱 要果敢</li>
 		</ul>
-  		<router-link class="so-link -close" to="/"><span class="iconfont icon-icon"></span></router-link>
+  		
   	</div>
   	<div class="box">
   		<ul class="info-ul">
@@ -49,10 +50,14 @@
 
 
 <script>
+import closeButton from './closeButton.vue'
 export default {
   data () {
     return {
     }
+  },
+  components:{
+  	closeButton,
   }
 }
 </script>
@@ -109,14 +114,5 @@ export default {
 			}
 		}
 		
-		.-close{
-			position: absolute;
-			top: 10px;
-			right: 10px;
-			.iconfont{
-				font-size: 30px;
-			}
-		}
-
 	}
 </style>

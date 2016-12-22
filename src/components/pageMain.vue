@@ -38,11 +38,14 @@
   			</div>
   		</div> -->
   		<div class="block">
-  			<div class="-icon iconfont icon-xuexiao" >
-  			</div>
-  			<div class="-title">
-  				activities
-  			</div>
+  			<router-link class="so-link" to="/activity">
+  				<div class="-icon iconfont icon-xuexiao" >
+	  			</div>
+	  			<div class="-title">
+	  				activities
+	  			</div>
+  			</router-link>
+  			
   		</div>
   		<!-- <div class="block">
   			<div class="-icon iconfont icon-jibenxinxi" >
@@ -52,18 +55,22 @@
   			</div>
   		</div> -->
   		<div class="block">
-  			<div class="-icon iconfont icon-experience" >
-  			</div>
-  			<div class="-title">
-  				experience
-  			</div>
+  			<router-link class="so-link" to="/experience">
+  				<div class="-icon iconfont icon-experience" >
+	  			</div>
+	  			<div class="-title">
+	  				experience
+	  			</div>
+  			</router-link>
   		</div>
   		<div class="block">
-  			<div class="-icon iconfont icon-chuangye" >
-  			</div>
-  			<div class="-title">
-  				Business
-  			</div>
+  			<router-link class="so-link" to="/business">
+  				<div class="-icon iconfont icon-chuangye" >
+	  			</div>
+	  			<div class="-title">
+	  				Business
+	  			</div>
+  			</router-link>
   		</div>
   		<div class="block">
   			<div class="-icon iconfont icon-renqungouwuxingqu" >

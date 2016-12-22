@@ -29,9 +29,12 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color:#333;
 }
 .so-link{
   text-decoration: none;
   color: #999;
+  display: flex;
+  flex-direction: column;
 }
 </style>
